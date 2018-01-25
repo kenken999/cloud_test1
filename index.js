@@ -1,10 +1,10 @@
 var http = require('http');
 
-var express = require("express");
-var app = express();
+//var express = require("express");
+//var app = express();
 var fs = require("fs");
 
-app.use('/RESOURCES',express.static(__dirname + '/RESOURCES'));
+//app.use('/RESOURCES',express.static(__dirname + '/RESOURCES'));
 
 //var port2 = process.env.PORT || 3001;
 //var server = app.listen(port2);
