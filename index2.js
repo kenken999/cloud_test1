@@ -6,7 +6,7 @@ var fs = require("fs");
 
 app.use('/RESOURCES',express.static(__dirname + '/RESOURCES'));
 
-var port2 = process.env.PORT || 5050;
+var port2 = process.env.PORT || 3000;
 var server = app.listen(port2);
 function start () {
   var server = http.createServer(function(request, response) {
